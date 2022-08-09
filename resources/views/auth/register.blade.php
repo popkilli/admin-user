@@ -67,6 +67,11 @@
                                     {{ __('Register') }}
                                 </button>
                             </div>
+                            <div class="col-md-6 offset-md-4">
+                                <a class="btn btn-link px-0" href="{{ route('login') }}">
+                                    {{ trans('global.login') }}
+                                </a>
+                            </div>
                         </div>
                     </form>
                 </div>
